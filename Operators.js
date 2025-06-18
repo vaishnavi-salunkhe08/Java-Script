@@ -32,3 +32,18 @@ console.log(`a = ${a}, b = ${b} , a >= b = ${a >= b}`); // Greater than or equal
 console.log(`a = ${a}, b = ${b} , a == b = ${a == b}`); // Equal to //compare value not type
 console.log(`a = ${a}, b = ${b} , a === b = ${a === b}`); // Strict equal to //compare value and type
 console.log(`a = ${a}, b = ${b} , a != b = ${a != b}`); // Not equal to
+console.log("");
+console.log("------------------------------------------------------------");
+console.log("Logical Operators");
+// Logical AND, OR, NOT
+let age = 25;
+if((age >= 18) && (age <= 65)) { // Logical AND
+    console.log("You are eligible to work.");
+}
+if((age < 18) || (age > 65)) { // Logical OR
+    console.log("You are not eligible to work.");
+}
+
+if(!(age < 18)) { // Logical NOT
+    console.log("You are an adult.");
+}
